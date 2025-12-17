@@ -80,7 +80,7 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <h1>🗺️ My Travel Archive</h1>
+        <h1>My Travel Archive</h1>
         <p className="subtitle">Click a photo to select it, then click a category button to organize</p>
         <div className="stats">
           <span>Total Photos: {travels.length}</span>
@@ -91,7 +91,7 @@ function App() {
 
       {/* Category selection area */}
       <div className="categories">
-        <h2>📂 Select Travel Type</h2>
+        <h2>Select Travel Type</h2>
         <div className="category-buttons">
           {categories.map(cat => (
             <button
@@ -135,7 +135,7 @@ function App() {
           );
         })}
         {travels.filter(t => t.category !== "uncategorized").length === 0 && (
-          <p className="empty-message">No photos categorized yet. Start organizing below!</p>
+          <p className="empty-message">No photos categorized yet</p>
         )}
       </div>
 
