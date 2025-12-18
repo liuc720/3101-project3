@@ -5,32 +5,32 @@ import "./style.css";
 // Travel photos data
 const initialTravels = [
   // Beach
-  { id: 1, title: "Tropical Beach", image: "/source/images/beach1.jpg", category: "uncategorized", location: "Maldives" },
-  { id: 2, title: "Beach Sunset", image: "/source/images/beach2.jpg", category: "uncategorized", location: "Bali" },
-  { id: 3, title: "Surfing Paradise", image: "/source/images/beach3.jpg", category: "uncategorized", location: "Hawaii" },
-  { id: 4, title: "Beach Resort", image: "/source/images/beach4.jpg", category: "uncategorized", location: "Phuket" },
+  { id: 1, title: "Tropical Beach", image: "/images/beach1.jpg", category: "uncategorized", location: "Maldives" },
+  { id: 2, title: "Beach Sunset", image: "/images/beach2.jpg", category: "uncategorized", location: "Bali" },
+  { id: 3, title: "Surfing Paradise", image: "/images/beach3.jpg", category: "uncategorized", location: "Hawaii" },
+  { id: 4, title: "Beach Resort", image: "/images/beach4.jpg", category: "uncategorized", location: "Phuket" },
   
   // Mountain
-  { id: 5, title: "Snowy Mountains", image: "/source/images/mountain1.jpg", category: "uncategorized", location: "Swiss Alps" },
-  { id: 6, title: "Hiking Trail", image: "/source/images/mountain2.jpg", category: "uncategorized", location: "Nepal" },
-  { id: 7, title: "Mountain Peak", image: "/source/images/mountain3.jpg", category: "uncategorized", location: "Norway" },
-  { id: 8, title: "Mountain Trek", image: "/source/images/mountain4.jpg", category: "uncategorized", location: "New Zealand" },
+  { id: 5, title: "Snowy Mountains", image: "/images/mountain1.jpg", category: "uncategorized", location: "Swiss Alps" },
+  { id: 6, title: "Hiking Trail", image: "/images/mountain2.jpg", category: "uncategorized", location: "Nepal" },
+  { id: 7, title: "Mountain Peak", image: "/images/mountain3.jpg", category: "uncategorized", location: "Norway" },
+  { id: 8, title: "Mountain Trek", image: "/images/mountain4.jpg", category: "uncategorized", location: "New Zealand" },
   
   // City
-  { id: 9, title: "Tokyo Night", image: "/source/images/city1.jpg", category: "uncategorized", location: "Tokyo, Japan" },
-  { id: 10, title: "NYC Skyline", image: "/source/images/city2.jpg", category: "uncategorized", location: "New York, USA" },
-  { id: 11, title: "Paris Streets", image: "/source/images/city3.jpg", category: "uncategorized", location: "Paris, France" },
-  { id: 12, title: "Dubai Tower", image: "/source/images/city4.jpg", category: "uncategorized", location: "Dubai, UAE" },
+  { id: 9, title: "Tokyo Night", image: "/images/city1.jpg", category: "uncategorized", location: "Tokyo, Japan" },
+  { id: 10, title: "NYC Skyline", image: "/images/city2.jpg", category: "uncategorized", location: "New York, USA" },
+  { id: 11, title: "Paris Streets", image: "/images/city3.jpg", category: "uncategorized", location: "Paris, France" },
+  { id: 12, title: "Dubai Tower", image: "/images/city4.jpg", category: "uncategorized", location: "Dubai, UAE" },
   
   // Food
-  { id: 13, title: "Street Food", image: "/source/images/food1.jpg", category: "uncategorized", location: "Bangkok, Thailand" },
-  { id: 14, title: "Japanese Cuisine", image: "/source/images/food2.jpg", category: "uncategorized", location: "Kyoto, Japan" },
-  { id: 15, title: "Food Market", image: "/source/images/food3.jpg", category: "uncategorized", location: "Barcelona, Spain" },
+  { id: 13, title: "Street Food", image: "/images/food1.jpg", category: "uncategorized", location: "Bangkok, Thailand" },
+  { id: 14, title: "Japanese Cuisine", image: "/images/food2.jpg", category: "uncategorized", location: "Kyoto, Japan" },
+  { id: 15, title: "Food Market", image: "/images/food3.jpg", category: "uncategorized", location: "Barcelona, Spain" },
   
   // Culture
-  { id: 16, title: "Chinese Temple", image: "/source/images/culture1.jpg", category: "uncategorized", location: "Jiujiang, China" },
-  { id: 17, title: "Museum", image: "/source/images/culture2.jpg", category: "uncategorized", location: "Paris, France" },
-  { id: 18, title: "Historic Building", image: "/source/images/culture3.jpg", category: "uncategorized", location: "Rome, Italy" },
+  { id: 16, title: "Chinese Temple", image: "/images/culture1.jpg", category: "uncategorized", location: "Jiujiang, China" },
+  { id: 17, title: "Museum", image: "/images/culture2.jpg", category: "uncategorized", location: "Paris, France" },
+  { id: 18, title: "Historic Building", image: "/images/culture3.jpg", category: "uncategorized", location: "Rome, Italy" },
 ];
 
 window.addEventListener("load", () => {
